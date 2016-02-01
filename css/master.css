@@ -15,7 +15,7 @@ body {
 }
 
 .work {
-	margin-top: 80px;
+	margin-top: 70px;
 }
 
 .work-section {
@@ -33,8 +33,15 @@ nav ul li {
 }
 
 nav ul li a {
+	font-weight: 400;
 	text-decoration: none;
 	color: black;
+}
+
+nav ul li a:hover {
+	color: inherit;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
 }
 
 h1 {
@@ -128,7 +135,8 @@ img {
 }
 
 .view-more a:hover {
-	text-decoration: underline;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
 }
 
 .developer-designer a {
