@@ -1,0 +1,166 @@
+
+/* css reset with Normalize and skeleton used for grid system */
+@import url(normalize.css);
+@import url(skeleton.css);
+
+/* FONT -- Quicksand light, Normal, Bold */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.top-header {
+	margin-top: 40px;
+}
+
+.work {
+	margin-top: 70px;
+}
+
+.work-section {
+	margin-top: 50px;
+}
+
+
+nav {
+	margin-top: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+nav ul li a {
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover {
+	color: inherit;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 17px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+p {
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.about-section, .contact-section {
+	line-height: 26px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+.email a {
+	color: black;
+	text-decoration: none;
+}
+
+.email a:hover {
+	text-decoration: underline;
+}
+
+span {
+	font-size: 14px;
+}
+
+footer {
+	background-color: #FFCCCC;
+	padding: 10px;
+}
+
+footer ul li {
+	list-style: none;
+}
+
+footer ul li:first-child {
+	font-weight: 700;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo-footer h4 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.topF {
+	margin-top: 50px;
+}
+
+.bottomF {
+	margin-top: 50px;
+}
+
+.work-section {
+	text-align: center;
+}
+
+img {
+	/*width: 780px;
+	height: 556px;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.view-more	{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.view-more a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.view-more a:hover {
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+}
+
+.developer-designer a {
+	text-decoration: none;
+	color: black;
+}
+
+.developer-designer a:hover {
+	text-decoration: underline;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+	.work {
+		margin-top: 20px;
+	}
+
+	img {
+		width: 300px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
